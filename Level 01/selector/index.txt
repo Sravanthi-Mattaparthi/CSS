@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Happy to be at the topic "Selectors"</h1>
+
+  <p>Basically selectors are following types:</p>
+  <ol>
+    <li>Universal selectors starts with *{}</li>
+    <li>Element selectors</li>
+    <li>id selectors</li>
+    <li>.class selectors</li>
+  </ol>
+  
+  <!--id selector-->
+  <h1 id="headingOne">Most important heading is h1</h1>
+  <h6 id="headingTwo">Least important heading is h6</h6>
+
+  <!--class selector-->
+  <p class="myClass">This is a paragraph tag, used to write the content in the form of paragraph </p>
+  <h2 class="myClass">This is the heading tag of h3 type.<br>Also the class selector is used to if the elements want same changes so that they can be have class selector</h2>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------
+
+body{
+  background-color:#830A48;
+}
+
+h1{
+  color: #FAB2EA;
+}
+*{
+  font-style: oblique;
+  font-family: cursive;
+}
+p{
+  color: chartreuse;
+}
+#headingOne{
+  color: forestgreen;
+}
+#headingTwo{
+  color: turquoise;
+}
+.myClass{
+  color: cornsilk;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+----------------------------------------------------------------------------------------
+
+Practice set1
+1. Create a simple div with an id "box" add some  text content inside the div. Set its background color to blue.
+
+2.Create 3 headings with h1,h2 &h3.
+  Give them all a class "headimg" & set color of "heading" to red.
+
+3. Create a button & set its background color to:
+  * green using css stylesheet
+  * blue using <style> tag
+  * pink using inline style
+

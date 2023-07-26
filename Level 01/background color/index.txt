@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background color</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--setting background color-->
+  <h1>Background color is set to skyblue</h1>
+  <br>
+
+  <!--setting background color of button-->
+  <button>Login</button>
+  <br><br>
+  
+
+  <!--setting background color to link-->
+  <a href="https://www.w3schools.com/html/html_links.asp">W3Schools Website</a>
+  <br><br>
+
+  
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------------------------
+
+body{
+  background-color: rgb(255, 255, 27);
+}
+button{
+  background-color: rgb(40, 14, 239);
+  color: rgb(232, 237, 230);
+  
+}
+a{
+  background-color: rgb(20, 196, 245);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 01</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <!--Changing the default font color refer style.css-->
+  <h1>Hello , This is Sravanthi !</h1>
+
+  <!--Inline styling-->
+
+  <h2 style="color: blue;">Learn CSS with Joy</h2>
+
+  <h1>Have a Happy Journey!</h1><br>
+
+  <!--Applied for buttons-->
+  <button>Submit</button><br>
+  
+  <!--Applied for links-->
+  <a href="https://youtu.be/ESnrn1kAD4E">Apna College Didi Sravanthi</a>
+</body>
+
+</html>
+
+
+
+----------------------------------------------END--------------------------------------------
+
+
+
+<!--style.css code -->
+
+
+
+h1 {
+  color: green; 
+}
+button{
+  color:rgb(20, 190, 220)
+}
+
+a{
+  color: rgb(230, 68, 4);
+}
