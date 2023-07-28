@@ -1,0 +1,29 @@
+div{
+  height: 100px;
+  width:100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#one{
+ background-image: url("image1.jpg");
+ background-size:cover;
+}
+#two{
+  background-image: url("image2.jpg");
+  background-size:cover;
+ }
+ #three{
+  background-image: url("image3.jpg");
+  background-size:contain;
+ }
+ #four{
+  background-image: url("image4.jpg");
+  background-size:cover;
+ }
+ body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+ 
+ 
+
+ }

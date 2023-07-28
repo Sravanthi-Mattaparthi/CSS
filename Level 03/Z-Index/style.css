@@ -1,0 +1,24 @@
+div{
+  height:100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#one{
+  z-index: -1;
+  position: static;
+  top: 20px;
+}
+#two{
+  z-index: 1;
+  position: relative;
+  top: 20px;
+  left:10px
+  
+
+}
+#three{
+ z-index: 3;
+  position: fixed;
+  top: 20px;
+}
