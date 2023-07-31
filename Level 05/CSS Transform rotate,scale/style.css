@@ -1,0 +1,27 @@
+div{
+  height:100px;
+  width:100px;
+  background-color: darkmagenta;
+  border: 5px solid black;
+  color: white;
+  position: fixed;
+  top: 150px;
+  right: 500px;
+  /* transform: rotate(90deg); */
+  /* rotate:90deg; */
+  /* scale: 0.5; */
+ /* transform: scale(2,3); */
+
+ transition: all 2s ease-in;
+
+  
+}
+div:hover{
+  background-color: yellowgreen;
+  transform: scaleY(3);
+
+}
+
+body{
+  background-color: khaki;
+}

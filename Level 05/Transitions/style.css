@@ -1,0 +1,22 @@
+div{
+  background-color: darkmagenta;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  color: white;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: steps(5);
+  transition-delay: 1s; */
+  transition: all 2s steps(3) 1s;
+}
+div:hover{
+  background-color:yellowgreen;
+  color: black;
+  font-size: 20px;
+}
+div:active{
+  background-color: yellow;
+  color: darkred;
+  
+}

@@ -1,0 +1,27 @@
+div{
+  color: darkmagenta;
+  background-color: greenyellow;
+  border:  white;
+  font-size: 200px;
+  display: inline;
+}
+@keyframes animate{
+  from{
+    background-color: greenyellow;
+  }
+  to{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  }
+div:hover{
+  /* animation-name: animate;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1ms;
+  animation-iteration-count: 5;
+  animation-direction:alternate-reverse;*/
+  animation: animate 3s ease-in 1s 3 alternate;
+} 
+
